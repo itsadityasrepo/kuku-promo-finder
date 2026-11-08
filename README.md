@@ -8,7 +8,7 @@ Reads a microdrama's timestamped screenplays and returns a **promo cut sheet** a
 - why it sits where it does in the posting order
 - the one thing to check before posting
 
-**Try it without installing anything:** open `demo/Promo_Finder.ipynb` in Google Colab and choose *Run all*. It runs on a built-in test show. Set `USE_DEMO_SHOW = False` to upload your own.
+**Try it without installing anything:** [Open in Google Colab](https://colab.research.google.com/github/itsadityasrepo/kuku-promo-finder/blob/main/demo/Promo_Finder.ipynb) and choose **Runtime → Run all**. It starts with a built-in synthetic show; set `USE_DEMO_SHOW = False` to upload a show ZIP.
 
 ## Run it locally
 
