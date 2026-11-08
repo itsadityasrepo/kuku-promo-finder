@@ -1,0 +1,17 @@
+{
+ "_note": "Written BEFORE the tool was run on this show, and never edited after. Synthetic 4-episode modern CEO-revenge show ('The Waitress Was His Wife'), written to test generalisation to a new genre with known answers. Times in seconds within the episode.",
+ "planted_promos": [
+  {"id": "T1", "episode": 1, "window": [31.0, 66.0], "what": "Bully slaps the waitress -> guards drag her -> CEO walks in: 'Take your hands off my wife.' -> 'Your... wife?'",
+   "found_if": {"overlap_with_window_at_least": 0.5, "last_cut_between": [57.0, 74.0]}},
+  {"id": "T2", "episode": 2, "window": [48.0, 78.0], "what": "'I'm pregnant, Daniel. And the baby is yours.' -> DNA folder + divorce threat -> 'Tell me she's lying.'",
+   "found_if": {"overlap_with_window_at_least": 0.5, "last_cut_between": [66.0, 83.0]}},
+  {"id": "T3", "episode": 4, "window": [5.0, 58.0], "what": "Boardroom: 'The waitress?' -> she owns the company -> 'you're fired' -> villain: 'Your grandfather didn't die of a heart attack' -> 'Ask your husband what he really paid'",
+   "found_if": {"first_cut_between": [5.0, 30.0], "last_cut_between": [47.0, 62.0]}}
+ ],
+ "traps": [
+  {"id": "X1", "kind": "split_sentence", "episode": 2, "no_segment_may_end_at": 13.0, "what": "one sentence split across two lines by the same speaker"},
+  {"id": "X2", "kind": "resolution", "episode": 3, "no_post_list_promo_may_end_after": 27.0, "what": "villain exposed and arrested, then a cosy balcony scene: nothing unresolved"},
+  {"id": "X3", "kind": "soft_ending", "episode": 1, "no_post_list_promo_may_end_after": 80.0, "what": "episode ends on a tender walk home"},
+  {"id": "X4", "kind": "quiet_episode_promo", "episode": 3, "max_post_list_promos_from_episode": 1, "what": "a resolution episode should not dominate the post list"}
+ ]
+}

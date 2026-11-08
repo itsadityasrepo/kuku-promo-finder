@@ -1,0 +1,41 @@
+{
+ "_note": "Regency / historical / royal drama",
+ "physical_shock": [
+  "sword",
+  "crop",
+  "whip",
+  "noose",
+  "gallows",
+  "chain",
+  "shackle",
+  "dagger",
+  "pistol",
+  "blade"
+ ],
+ "reveal_words": [
+  "duke",
+  "duchess",
+  "heir",
+  "signet",
+  "crest",
+  "witch",
+  "treason",
+  "disown",
+  "inherit",
+  "hang$",
+  "hanged",
+  "hanging",
+  "execut",
+  "crown",
+  "lord",
+  "lady",
+  "manor",
+  "dowry",
+  "bastard"
+ ],
+ "threat_words": [
+  "the crown",
+  "to the gallows",
+  "disgrace"
+ ]
+}
